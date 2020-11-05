@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(240, 244, 245);
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canvas {
+  width: 700px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(50, 50, 90, 0.11),
+    0 1px 3px rgba(51, 51, 51, 0.103);
+  margin-top: 80px;
+}
+
+.ctr_colors .ctr_color {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 5px;
+  border-style: outset white;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(50, 50, 90, 0.11), 0 1px 3px rgba(51, 51, 51, 0.08);
+}
+
+.controls {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls > .ctr_btns {
+  margin-bottom: 20px;
+}
+
+.ctr_btns > button {
+  all: unset;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 14px 20px;
+  border-radius: 5px;
+  margin: 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 90, 0.11), 0 1px 3px rgba(51, 51, 51, 0.08);
+  border: 1px solid rgba(47, 47, 47, 0.192);
+  color: rgba(0, 0, 0, 0.561);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+  transition-duration: 0.4ms;
+}
+
+.controls .ctr_colors {
+  display: flex;
+}
+
+.ctr_btns button:hover {
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+.ctr_btns button:active {
+  transform: scale(0.98);
+}
+
+.controls .ctr_range {
+  margin-bottom: 20px;
+}
