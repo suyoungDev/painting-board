@@ -1,2 +1,2 @@
 # paint_js
-building a painting board made by vanilla JS
+바닐라 자바스크립트를 사용하여 만든 간단한 (웹 어플리케이션)그림판
